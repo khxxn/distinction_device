@@ -87,32 +87,32 @@ void MyParser::OnScanFinished() {
 }
 void bar_voice() //음성출력
 {
-  if(strcmp(bar_data,"1234567890128")==0){ //칠성사이다
+  if(strcmp(bar_data,"8801056143015")==0){ //칠성사이다
     voice.say(chilsung);
     delay(500);
     voice.say(chilsung);
   }
-  else if(strcmp(bar_data,"1234567890158")==0){ //코카콜라
+  else if(strcmp(bar_data,"8801094013004")==0){ //코카콜라
     voice.say(coke);
     delay(500);
     voice.say(coke);
   }
-  else if(strcmp(bar_data,"8809612842280")==0){ //코카콜라 제로
+  else if(strcmp(bar_data,"8801094082406")==0){ //코카콜라 제로
     voice.say(zero_coke);
     delay(500);
     voice.say(zero_coke);
   }
-  else if(strcmp(bar_data,"8801056836016")==0){ //포카리스웨트
+  else if(strcmp(bar_data,"8801097150010")==0){ //포카리스웨트
     voice.say(pocari);
     delay(500);
     voice.say(pocari);
   }
-  else if(strcmp(bar_data,"1234567890128")==0){ //핫식스
+  else if(strcmp(bar_data,"8801056098834")==0){ //핫식스
     voice.say(hot6);
     delay(500);
     voice.say(hot6);
   }
-  else if(strcmp(bar_data,"8809482500013")==0){ //새우깡
+  else if(strcmp(bar_data,"8801043035989")==0){ //새우깡
     voice.say(fishsnack);
     delay(500);
     voice.say(fishsnack);
